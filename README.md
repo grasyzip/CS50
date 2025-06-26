@@ -18,10 +18,10 @@ Exemplo:
 O programa que escreveremos se chamará mario. E vamos permitir que o usuário decida a altura das pirâmides, primeiro solicitando um número inteiro positivo entre, digamos, 1 e 8.
 
 Exemplo:
-   #  #
-  ##  ##
- ###  ###
-####  ####
+-   #  #
+-  ##  ##
+- ###  ###
+-####  ####
 
 ### 3. Dinheiro
 
