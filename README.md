@@ -8,10 +8,10 @@ Repositório para guardar os códigos desenvolvidos no curso de Ciência da Comp
 O programa que escreveremos se chamará mario. E vamos permitir que o usuário decida qual deve ser a altura da pirâmide, primeiro solicitando um número inteiro positivo entre, digamos, 1 e 8.
 
 Exemplo:
-#
-##
-###
-####
+   #
+   ##
+   ###
+   ####
 
 ###2. Mario Desafio
 
