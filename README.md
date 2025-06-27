@@ -61,3 +61,37 @@ Onde n = população atual no ano
 Exiba o resultado no formato:
 text
 Years: n (onde n é o número inteiro de anos calculado)
+
+## Modulo 2: Arrays Exercicios:
+
+### 1. Scrabble
+Seu programa deve solicitar entrada duas vezes: uma vez para que "Jogador 1" insira sua palavra e outra vez para que "Jogador 2" insira sua palavra. Em seguida, dependendo de qual jogador marcar mais pontos, seu programa deve imprimir “Player 1 wins!” (caso o jogador 1 ganhe), “Player 2 wins!” (se o jogador 2 venceu) ou “Tie!” (caso os dois jogadores pontuem igualmente).
+
+1. Pseudocódigo
+Se ainda não tiver certeza de como resolver o problema em si, divida-o em problemas menores que você provavelmente pode resolver primeiro. Por exemplo, este exercício se divide em:
+
+- Solicitar ao usuário duas palavras;
+- Calcular os pontos de cada palavra;
+- Imprimir o vencedor.
+
+### 2. Legibilidade
+Vamos escrever um programa chamado readability que recebe um texto e determina seu nível de leitura. 
+O texto que o usuário inseriu tem 65 letras, 4 sentenças e 14 palavras. 65 letras por 14 palavras é uma média de cerca de 464,29 letras por 100 palavras. E 4 sentenças por 14 palavras é uma média de cerca de 28,57 sentenças por 100 palavras. Conectados à fórmula Coleman-Liau e arredondados para o número inteiro mais próximo, obtemos uma resposta de 3: portanto, esta passagem está em um nível de leitura da terceira série.
+
+### 3. Caesar
+
+Vamos escrever um programa chamado ceasar.c que permite criptografar mensagens usando a cifra de César. No momento em que o usuário executa o programa, ele deve decidir, fornecendo um argumento de linha de comando, qual deve ser a chave na mensagem secreta que fornecerá no tempo de execução. Não devemos necessariamente presumir que a chave do usuário será um número; embora você possa assumir que, se for um número, será um inteiro positivo.
+
+### 4. Substituição
+
+Projete e implemente um programa, substitution, que criptografa mensagens usando uma cifra de substituição.
+Implemente seu programa em um arquivo denominado substitution.c em um diretório denominado pset2/substitution.
+
+- Seu programa deve aceitar um único argumento de linha de comando, a chave a ser usada para a substituição. A chave em si não deve fazer distinção entre maiúsculas e minúsculas, portanto, se algum caractere na chave estiver em maiúscula ou minúscula, isso não deve afetar o comportamento do seu programa.
+- Se o seu programa for executado sem nenhum argumento de linha de comando ou com mais de um argumento de linha de comando, seu programa deve imprimir uma mensagem de erro de sua escolha (com printf) e retornar de main um valor de 1 (o que tende a significar um erro) imediatamente.
+- Se a chave for inválida (por não conter 26 caracteres, conter qualquer caractere que não seja um caractere alfabético, ou não conter cada letra exatamente uma vez), seu programa deverá imprimir uma mensagem de erro de sua escolha (com printf) e retornar do main um valor de 1 imediatamente.
+- Seu programa deve produzir na saída plaintext: - que significa texto simples: (sem uma nova linha) e então solicitar ao usuário uma string de texto simples (usando get_string).
+- Seu programa ter na saída o seguinte texto ciphertext: - que significa texto cifrado - (sem uma nova linha) seguido pelo texto cifrado correspondente do texto simples, com cada caractere alfabético no texto simples substituído pelo caractere correspondente no texto cifrado; os caracteres não alfabéticos devem ser reproduzidos inalterados.
+- Seu programa deve preservar maiúsculas e minúsculas: as letras maiúsculas devem permanecer letras maiúsculas; as letras minúsculas devem permanecer em minúsculas.
+- Após a saída do texto cifrado, você deve imprimir uma nova linha. Seu programa deve então sair retornando 0 da main.
+
