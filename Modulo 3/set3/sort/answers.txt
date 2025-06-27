@@ -1,0 +1,20 @@
+sort1 uses: merge sort
+How do you know?:
+- Tempo de execução O(n log n) em todos os casos testados
+- Mantém performance consistente independentemente da ordem inicial (ordenada, inversa ou aleatória)
+- Único que consegue processar 50.000 elementos rapidamente (~0.15s)
+- Comportamento característico do merge sort (dividir para conquistar)
+
+sort2 uses: bubble sort
+How do you know?:
+- Performance extremamente rápida em listas já ordenadas (~0.01s para 10.000 elementos)
+- Performance extremamente lenta em listas em ordem inversa (~1.8s para 10.000 elementos)
+- Mostra comportamento adaptativo (melhora com listas parcialmente ordenadas)
+- Típico do bubble sort que pode terminar precocemente
+
+sort3 uses: selection sort
+How do you know?:
+- Tempo de execução consistente O(n²) em todos os cenários
+- Não mostra diferença significativa entre listas ordenadas, inversas ou aleatórias
+- Mais lento para listas maiores (não escala bem)
+- Comportamento esperado do selection sort que sempre varre toda a lista
