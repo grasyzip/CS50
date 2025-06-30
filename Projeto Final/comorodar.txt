@@ -1,0 +1,8 @@
+Como Carregar a Extensão no Chrome
+Salve todos os arquivos em uma pasta
+
+Abra o Chrome e vá para chrome://extensions/
+
+Ative o "Modo de desenvolvedor" no canto superior direito
+
+Clique em "Carregar sem compactação" e selecione a pasta da sua extensão
