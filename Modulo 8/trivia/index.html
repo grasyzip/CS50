@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Conhecimentos Gerais</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Quiz de Conhecimentos Gerais</h1>
+
+    <div class="part">
+        <h2>Parte 1: Múltipla Escolha</h2>
+
+        <div class="question">
+            <h3>Qual é a capital do Brasil?</h3>
+
+            <div class="options">
+                <button class="option">Rio de Janeiro</button>
+                <button class="option">Brasília</button>
+                <button class="option">São Paulo</button>
+                <button class="option">Salvador</button>
+            </div>
+
+            <p id="feedback1" class="feedback"></p>
+        </div>
+    </div>
+
+    <div class="part">
+        <h2>Parte 2: Resposta Livre</h2>
+
+        <div class="question">
+            <h3>Quantos planetas existem no nosso sistema solar?</h3>
+
+            <div class="free-answer">
+                <input type="text" id="answer2" placeholder="Digite sua resposta">
+                <button id="submit2">Confirmar</button>
+            </div>
+
+            <p id="feedback2" class="feedback"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
